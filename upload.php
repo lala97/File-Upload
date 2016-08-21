@@ -5,6 +5,7 @@
  	fwrite($myFile,$text);
  	fclose($myFile);
 
+
  	$file=$_FILES['sekil']['tmp_name'];
     $fileName=$_FILES['sekil']['name'];
 
